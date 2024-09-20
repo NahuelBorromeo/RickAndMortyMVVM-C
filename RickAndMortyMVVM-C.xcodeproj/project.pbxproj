@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		EE02715E2C9E2850000C1C15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE02713F2C9E284F000C1C15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE0271462C9E284F000C1C15;
+			remoteInfo = "RickAndMortyMVVM-C";
+		};
+		EE0271682C9E2850000C1C15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE02713F2C9E284F000C1C15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE0271462C9E284F000C1C15;
+			remoteInfo = "RickAndMortyMVVM-C";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE0271472C9E284F000C1C15 /* RickAndMortyMVVM-C.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RickAndMortyMVVM-C.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE02715D2C9E2850000C1C15 /* RickAndMortyMVVM-CTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RickAndMortyMVVM-CTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE0271672C9E2850000C1C15 /* RickAndMortyMVVM-CUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RickAndMortyMVVM-CUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		EE02716F2C9E2850000C1C15 /* Exceptions for "RickAndMortyMVVM-C" folder in "RickAndMortyMVVM-C" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = EE0271462C9E284F000C1C15 /* RickAndMortyMVVM-C */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		EE0271492C9E284F000C1C15 /* RickAndMortyMVVM-C */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				EE02716F2C9E2850000C1C15 /* Exceptions for "RickAndMortyMVVM-C" folder in "RickAndMortyMVVM-C" target */,
+			);
+			path = "RickAndMortyMVVM-C";
+			sourceTree = "<group>";
+		};
+		EE0271602C9E2850000C1C15 /* RickAndMortyMVVM-CTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "RickAndMortyMVVM-CTests";
+			sourceTree = "<group>";
+		};
+		EE02716A2C9E2850000C1C15 /* RickAndMortyMVVM-CUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "RickAndMortyMVVM-CUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE0271442C9E284F000C1C15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE02715A2C9E2850000C1C15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE0271642C9E2850000C1C15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE02713E2C9E284F000C1C15 = {
+			isa = PBXGroup;
+			children = (
+				EE0271492C9E284F000C1C15 /* RickAndMortyMVVM-C */,
+				EE0271602C9E2850000C1C15 /* RickAndMortyMVVM-CTests */,
+				EE02716A2C9E2850000C1C15 /* RickAndMortyMVVM-CUITests */,
+				EE0271482C9E284F000C1C15 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE0271482C9E284F000C1C15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE0271472C9E284F000C1C15 /* RickAndMortyMVVM-C.app */,
+				EE02715D2C9E2850000C1C15 /* RickAndMortyMVVM-CTests.xctest */,
+				EE0271672C9E2850000C1C15 /* RickAndMortyMVVM-CUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE0271462C9E284F000C1C15 /* RickAndMortyMVVM-C */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE0271702C9E2850000C1C15 /* Build configuration list for PBXNativeTarget "RickAndMortyMVVM-C" */;
+			buildPhases = (
+				EE0271432C9E284F000C1C15 /* Sources */,
+				EE0271442C9E284F000C1C15 /* Frameworks */,
+				EE0271452C9E284F000C1C15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				EE0271492C9E284F000C1C15 /* RickAndMortyMVVM-C */,
+			);
+			name = "RickAndMortyMVVM-C";
+			packageProductDependencies = (
+			);
+			productName = "RickAndMortyMVVM-C";
+			productReference = EE0271472C9E284F000C1C15 /* RickAndMortyMVVM-C.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE02715C2C9E2850000C1C15 /* RickAndMortyMVVM-CTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE0271752C9E2850000C1C15 /* Build configuration list for PBXNativeTarget "RickAndMortyMVVM-CTests" */;
+			buildPhases = (
+				EE0271592C9E2850000C1C15 /* Sources */,
+				EE02715A2C9E2850000C1C15 /* Frameworks */,
+				EE02715B2C9E2850000C1C15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE02715F2C9E2850000C1C15 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				EE0271602C9E2850000C1C15 /* RickAndMortyMVVM-CTests */,
+			);
+			name = "RickAndMortyMVVM-CTests";
+			packageProductDependencies = (
+			);
+			productName = "RickAndMortyMVVM-CTests";
+			productReference = EE02715D2C9E2850000C1C15 /* RickAndMortyMVVM-CTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE0271662C9E2850000C1C15 /* RickAndMortyMVVM-CUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE0271782C9E2850000C1C15 /* Build configuration list for PBXNativeTarget "RickAndMortyMVVM-CUITests" */;
+			buildPhases = (
+				EE0271632C9E2850000C1C15 /* Sources */,
+				EE0271642C9E2850000C1C15 /* Frameworks */,
+				EE0271652C9E2850000C1C15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE0271692C9E2850000C1C15 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				EE02716A2C9E2850000C1C15 /* RickAndMortyMVVM-CUITests */,
+			);
+			name = "RickAndMortyMVVM-CUITests";
+			packageProductDependencies = (
+			);
+			productName = "RickAndMortyMVVM-CUITests";
+			productReference = EE0271672C9E2850000C1C15 /* RickAndMortyMVVM-CUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE02713F2C9E284F000C1C15 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					EE0271462C9E284F000C1C15 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					EE02715C2C9E2850000C1C15 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = EE0271462C9E284F000C1C15;
+					};
+					EE0271662C9E2850000C1C15 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = EE0271462C9E284F000C1C15;
+					};
+				};
+			};
+			buildConfigurationList = EE0271422C9E284F000C1C15 /* Build configuration list for PBXProject "RickAndMortyMVVM-C" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE02713E2C9E284F000C1C15;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = EE0271482C9E284F000C1C15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE0271462C9E284F000C1C15 /* RickAndMortyMVVM-C */,
+				EE02715C2C9E2850000C1C15 /* RickAndMortyMVVM-CTests */,
+				EE0271662C9E2850000C1C15 /* RickAndMortyMVVM-CUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE0271452C9E284F000C1C15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE02715B2C9E2850000C1C15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE0271652C9E2850000C1C15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE0271432C9E284F000C1C15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE0271592C9E2850000C1C15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE0271632C9E2850000C1C15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE02715F2C9E2850000C1C15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE0271462C9E284F000C1C15 /* RickAndMortyMVVM-C */;
+			targetProxy = EE02715E2C9E2850000C1C15 /* PBXContainerItemProxy */;
+		};
+		EE0271692C9E2850000C1C15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE0271462C9E284F000C1C15 /* RickAndMortyMVVM-C */;
+			targetProxy = EE0271682C9E2850000C1C15 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EE0271712C9E2850000C1C15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2TNN32RFFV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "RickAndMortyMVVM-C/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nahuelborromeo.RickAndMortyMVVM-C";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE0271722C9E2850000C1C15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2TNN32RFFV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "RickAndMortyMVVM-C/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nahuelborromeo.RickAndMortyMVVM-C";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EE0271732C9E2850000C1C15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE0271742C9E2850000C1C15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE0271762C9E2850000C1C15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2TNN32RFFV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nahuelborromeo.RickAndMortyMVVM-CTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RickAndMortyMVVM-C.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RickAndMortyMVVM-C";
+			};
+			name = Debug;
+		};
+		EE0271772C9E2850000C1C15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2TNN32RFFV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nahuelborromeo.RickAndMortyMVVM-CTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RickAndMortyMVVM-C.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RickAndMortyMVVM-C";
+			};
+			name = Release;
+		};
+		EE0271792C9E2850000C1C15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2TNN32RFFV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nahuelborromeo.RickAndMortyMVVM-CUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "RickAndMortyMVVM-C";
+			};
+			name = Debug;
+		};
+		EE02717A2C9E2850000C1C15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2TNN32RFFV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nahuelborromeo.RickAndMortyMVVM-CUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "RickAndMortyMVVM-C";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE0271422C9E284F000C1C15 /* Build configuration list for PBXProject "RickAndMortyMVVM-C" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE0271732C9E2850000C1C15 /* Debug */,
+				EE0271742C9E2850000C1C15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE0271702C9E2850000C1C15 /* Build configuration list for PBXNativeTarget "RickAndMortyMVVM-C" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE0271712C9E2850000C1C15 /* Debug */,
+				EE0271722C9E2850000C1C15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE0271752C9E2850000C1C15 /* Build configuration list for PBXNativeTarget "RickAndMortyMVVM-CTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE0271762C9E2850000C1C15 /* Debug */,
+				EE0271772C9E2850000C1C15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE0271782C9E2850000C1C15 /* Build configuration list for PBXNativeTarget "RickAndMortyMVVM-CUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE0271792C9E2850000C1C15 /* Debug */,
+				EE02717A2C9E2850000C1C15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE02713F2C9E284F000C1C15 /* Project object */;
+}
